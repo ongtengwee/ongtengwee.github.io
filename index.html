@@ -9,28 +9,105 @@
 <body>
     <style>
              body {
-                background-image: url("https://images.pexels.com/photos/841120/pexels-photo-841120.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260");
-                background-repeat:inherit;
+                background-image: url("https://images.pexels.com/photos/1661375/pexels-photo-1661375.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260");
+                background-repeat:;
+                background-size: 3000px 1000px;
                 font-family: "Arial", Times, serif;
+                
              
                 
             }
+    #rcorners1 {
+    border-radius: 25px;
+    background-color: yellow ;
+    padding: 20px; 
+    width: 600px;
+    height: 40px;
+      
+    }
+        .button {
+    background-color: green;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    
+    }
+    
+    .relative {
+    position: relative;
+    left: 650px;
+    opacity: 0.6;
+    transition: 0.3s;
+    }
+
+    .relative:hover{
+        background-color: blue;
+        opacity: 1;
+    }
+
+
+
+    div.title{
+    position: relative;
+    left: 350px
+    }
+        div.heading2 {
+    width: 90px;
+    height: 50px;
+    background: red;
+    -webkit-transition: width 1s; /* For Safari 3.1 to 6.0 */
+    transition: width 1s;
+    overflow: hidden;
+    }
+
+    div.heading2:hover {
+    width: 1000px;
+    }
+    h5 {
+       font-size :30px;
+    }
+    h6{
+        font-size: 30px;
+        position: relative;
+        left: 550px;
+    }
+
+
             
             </style>
-    <h1 style="background-color:green;">Ong Teng Wee / Portfolio Site</h1> 
-    <a href=" https://developers.google.com/open-source/gci/ "> Link to GCI</a>
+    <div class = "title">
+    <h1 id="rcorners1">Ong Teng Wee / Portfolio Site</h1>
+    </div>
+    <h5> About Me </h5>
+    <div class = "heading2">
+    <h2> -----------Hello, I am a 6th year student from Dunman High School, Singapore</h2>
+    </div>
+    <h3 style= "background-color:white;"><i>At the bottom is an example chatbot that answers questions regarding movies and TV.This chatbot was implemented for another GCI task</i></h3>
+    <h6> Relevant Links</h6>
+    <div class = "relative">
+    <a href="https://developers.google.com/open-source/gci/" class="button">Link to GCI</a>
+    </div>
     <br></br>
-    <a href=" https://chat.susi.ai/overview "> Link to susi.ai (FossAsia)</a>
+    <div class = "relative">
+    <a href="https://chat.susi.ai/overview" class="button">Link to SUSI.ai</a>
+    </div>
     <br></br>
-    <a href="https://images.pexels.com/photos/841120/pexels-photo-841120.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"> Link to background image used</a>
+    <div class = "relative">
+    <a href="https://images.pexels.com/photos/841120/pexels-photo-841120.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260" class="button">Link to Background Image</a>
+    </div>
     <pre><script type='text/javascript' id='susi-bot-script' data-userid='fb1423b30a68350745fdc62f5df00e1b' data-group='Movies and TV' data-language='en' data-skill='MoPicbot' src='https://skills.susi.ai/susi-chatbot.js'></script></pre> <!-- ur chatbot code here -->
-    <h2>Hello, I am a 5th year students from Dunman High School, Singapore</h2>
-    <h3 style= "background-color:yellow;"><i>At the bottom is an example chatbot that answers questions regarding movies and TV.This chatbot was implemented for another GCI task</i></h3>
+    
     <break></break>
      <address style= "color:white">
             Written by Ong Teng Wee.<br> 
             Dunman High School:<br>
-            ongtengwee.github.io<br>
+            ong.tengwee.github.io<br>
             <br>
             Singapore
     </address>
